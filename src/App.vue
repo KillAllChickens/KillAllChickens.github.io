@@ -21,7 +21,12 @@ import { RouterView } from 'vue-router'
 
     <footer class="footer">
       <div class="container">
-        <p>No rights reserved, this is all MIT: <a href="https://github.com/KillAllChickens/KillAllChickens.github.io" target="_blank">feel free to take the code on Github</a></p>
+        <p>
+          No rights reserved, this is all MIT:
+          <a href="https://github.com/KillAllChickens/KillAllChickens.github.io" target="_blank"
+            >feel free to take the code on Github</a
+          >
+        </p>
       </div>
     </footer>
   </div>

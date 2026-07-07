@@ -52,7 +52,9 @@ defineProps<{
   padding: 20px;
   color: inherit;
   text-decoration: none;
-  transition: border-color 0.15s, background 0.15s;
+  transition:
+    border-color 0.15s,
+    background 0.15s;
 }
 
 .card:hover {
