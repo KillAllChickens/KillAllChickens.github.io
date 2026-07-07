@@ -5,7 +5,7 @@ export const projects = [
     category: "CLI",
     tags: ["Concurrency"],
     stack: ["Golang"],
-    description: "An OSINT tool designed to discover public accounts of any indidual across 170+ different social medias from just a username, all is 5 seconds or less.",
+    description: "An OSINT tool designed to discover public accounts of any individual across 170+ different social medias with just a username, all in 5 seconds or less.",
     link: "https://github.com/KillAllChickens/argus",
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     category: "CLI",
     tags: ["Encryption", "TUI"],
     stack: ["Golang"],
-    description: "Write daily diary entries from your terminal, dead simple, uses neovim for editting, has AES-256 encryption for all entries and markdown support.",
+    description: "Write daily diary entries from your terminal, dead simple, uses neovim for editing, has AES-256 encryption for all entries and markdown support.",
     link: "https://github.com/KillAllChickens/diary-cli",
   },
   {
@@ -31,7 +31,8 @@ export const projects = [
     title: "SuperStudies",
     category: "Web",
     tags: ["Web"],
-    description: "A real-time messaging platform that was once deployed in my school, bypassed browser restrictions. Features WebRTC video chat, an AI note-taker, and more.",
+    stack: ["Python", "Flask", "WebRTC"],
+    description: "A real-time messaging platform that was once deployed in my school, it ran undetected for over a year. Features WebRTC video chat, an AI note-taker, and more.",
     link: "",
   }
 ]
